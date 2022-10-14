@@ -1,0 +1,291 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin-bottom: 55px;
+    margin-top: 35px;
+}
+
+header section {
+    width: 1100px;
+    height: 700px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: #161616;
+    display: flex;
+}
+
+header section div {
+    width: 50%;
+    margin: auto;
+}
+
+.heading-part-one {
+    color: #FFFFFF;
+    margin-bottom: 120px;
+    margin-left: 50px;
+}
+
+.heading-part-one h5 {
+    position: relative;
+    bottom: 30px;
+}
+
+.heading-part-one button {
+    position: relative;
+    bottom: 15px;
+}
+
+.heading-part-two {
+    margin-right: 10px;
+}
+
+.heading-part-two img {
+    width: 100%;
+}
+
+.heading-part-one h1 {
+    font-size: 70px;
+}
+
+.heading-part-one button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.first {
+    width: 260px;
+    height: 200px;
+    background-color: #161616;
+    border-radius: 10px;
+}
+
+.first button {
+    background-color: white;
+    color: black;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    position: relative;
+    top: 15px;
+    border-radius: 5px;
+}
+
+.first #last {
+    background-color: red;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.common {
+    width: 260px;
+    height: 300px;
+    border: 1px solid whitesmoke;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.common img {
+    width: 100%;
+}
+
+.common div img {
+    width: 25%;
+}
+
+.common div {
+    position: relative;
+    bottom: 45px;
+    display: inline-block;
+}
+
+.common div {
+    position: relative;
+    display: flex;
+    gap: 15px;
+    bottom: 25px;
+    left: 10px;
+}
+
+.common h4 {
+    position: relative;
+    left: 10px;
+}
+
+.common button {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.another-middle-portion {
+    margin-left: 280px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+footer {
+    /* width: 100%; */
+    height: 400px;
+    background-color: #161616;
+    color: white;
+    text-align: center;
+}
+
+.zero {
+    position: relative;
+    top: 100px;
+}
+
+footer hr {
+    width: 75%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.second-part span {
+    margin-right: 25px;
+}
+
+#special {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 688px) {
+    hr {
+        position: relative;
+        bottom: 8px;
+    }
+
+    header section {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .heading-part-one {
+        margin: auto;
+    }
+
+    .heading-part-two {
+        margin: auto;
+    }
+
+    .first-middle-portion,
+    .another-middle-portion {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .first-middle-portion div {
+        margin: auto;
+    }
+
+    .first-middle-portion .first {
+        background-color: white;
+    }
+
+    .first button {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .common {
+        width: 75%;
+        height: 390px;
+    }
+
+    .another-middle-portion,
+    .common {
+        margin: auto;
+    }
+
+    .second-part {
+        position: relative;
+        bottom: 8px;
+    }
+
+    footer .second-part span {
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+
+    .last-part i {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 689px) and (max-width: 992px) {
+    .first {
+        height: 0;
+        width: 0;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        position: relative;
+        bottom: 10px;
+        justify-content: center;
+        left: 380px;
+    }
+
+    .first button {
+        margin-right: 10px;
+
+    }
+
+    header section {
+        width: 100%;
+        height: 100%;
+    }
+
+    .common {
+        margin-top: 100px;
+    }
+
+    .another-middle-portion {
+        position: relative;
+        right: 269px;
+    }
+
+    .second-part {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #special {
+        border: 1px solid whitesmoke;
+        padding: 15px;
+        background-color: red;
+        color: white;
+        position: relative;
+        left: 380px;
+        bottom: 30px;
+        display: inline-block;
+    }
+
+    .first-middle-portion,
+    .another-middle-portion {
+        width: 100%;
+    }
+}
